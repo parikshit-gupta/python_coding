@@ -10,12 +10,12 @@ while True:
     bool_val, frame = cam_obj.read()
     greyframe=cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
-    cv2.imshow('webcam5', frame)
+    cv2.imshow('webcam1', frame)
     cv2.imshow('webcam2', greyframe)
     cv2.imshow('webcam3', greyframe)
     cv2.imshow('webcam4', greyframe)
 
-    cv2.moveWindow('webcam5', 0,0)
+    cv2.moveWindow('webcam1', 0,0)
     cv2.moveWindow('webcam2', 620,0)
     cv2.moveWindow('webcam3', 0,190)
     cv2.moveWindow('webcam4', 620,190)
