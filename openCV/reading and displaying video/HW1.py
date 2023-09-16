@@ -23,7 +23,7 @@ while True:
     #y=y+10
     print(y)
     sleep(0.1) #takes time in seconds
-    if (cv2.waitKey(1) & 0xff == ord('q')):
+    if (cv2.waitKey(1) & 0xff == ord('q')): #0xff is used to convert across the UNICODE encoding in string used in python
         break
 
 cam_obj.release()
